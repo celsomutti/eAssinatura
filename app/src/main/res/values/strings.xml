@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">e-Assinatura</string>
+    <string name="labelLogin">LOGIN</string>
+    <string name="hintUsuario">Usuário</string>
+    <string name="hintSenha">Senha</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnCanelar">Cancelar</string>
+    <string name="labelMenu">MENU</string>
+    <string name="contentCarregarListagens">Carregar as listagens</string>
+    <string name="contentListagemAssinantes">Exibir listagem de assinantes</string>
+    <string name="contentListagemMovimentacao">Listagem de Movimentações</string>
+    <string name="title_activity_carregar">e-Assinatura</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="lblCarregarListagem">CARREGAR LISTAGENS</string>
+    <string name="logoff">LogOff</string>
+    <string name="btnImportar">Importar</string>
+    <string name="hintEdicao">Edição</string>
+    <string name="lblImportacao">Importação</string>
+    <string name="btntotalizar">TOTALIZAR</string>
+    <string name="hintTotais">TOTAIS</string>
+    <string name="lblListagem">Listagem</string>
+    <string name="btnListar">Listar</string>
+    <string name="lblMovimentacoes">Movimentações</string>
+    <string name="lblVersao">Versão B01.1</string>
+</resources>

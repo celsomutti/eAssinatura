@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="6dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/labelMenu"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgCarregar"
+        android:layout_width="115dp"
+        android:layout_height="121dp"
+        app:srcCompat="@mipmap/menu_carregar_listagem"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/contentCarregarListagens"
+        android:onClick="importar" />
+
+    <ImageView
+        android:id="@+id/imgListagem"
+        android:layout_width="115dp"
+        android:layout_height="121dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@mipmap/menu_listagem"
+        android:contentDescription="@string/contentListagemAssinantes"
+        android:onClick="listagem"/>
+
+    <ImageView
+        android:id="@+id/imgMovimento"
+        android:layout_width="115dp"
+        android:layout_height="121dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@mipmap/menu_movimentacao"
+        android:contentDescription="@string/contentListagemMovimentacao"
+        android:onClick="movimento"/>
+
+    <TextView
+        android:id="@+id/txtlogoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/logoff"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:onClick="logOff"/>
+
+    <TextView
+        android:id="@+id/txtVersao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/lblVersao" />
+
+</LinearLayout>
