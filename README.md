@@ -6,7 +6,7 @@ emitidas diáriamente para os entregadores efetuarem a distribuição dos exempl
 
 A intenção seria substuir totalmente as listagens.
 
-Nessaaplicação mobile, o entregador consegue visualizar as assinaturas do seu roteiro de entrega bem como as alterações de endereços ou 
+Nessa aplicação mobile, o entregador consegue visualizar as assinaturas do seu roteiro de entrega bem como as alterações de endereços ou 
 cancelamentos.
 
 A listagem de assinantes é disponibilizada diáriamente, quando o entregador faz o login, os dados são atualizados em um banco de dados 
