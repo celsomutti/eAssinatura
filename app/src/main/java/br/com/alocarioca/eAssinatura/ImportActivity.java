@@ -133,8 +133,7 @@ public class ImportActivity extends AppCompatActivity {
                 Uri.Builder builder = new Uri.Builder()
                         .appendQueryParameter("agente", params[0]);
                 String query = builder.build().getQuery();
-
-
+                
                 // Open connection for sending data
                 OutputStream os = conn.getOutputStream();
                 BufferedWriter writer = new BufferedWriter(
