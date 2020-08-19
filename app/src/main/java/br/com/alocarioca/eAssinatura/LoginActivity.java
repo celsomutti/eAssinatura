@@ -90,7 +90,7 @@ public class LoginActivity extends AppCompatActivity {
             try {
 
                 // Enter URL address where your php file resides
-                url = new URL("http://www.novorioexpress.com/api/eAssinatura/login.inc.php");
+                url = new URL("http://201.38.172.137/api/eAssinatura/login.inc.php");
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block

@@ -71,7 +71,7 @@ public class ListagemActivity extends AppCompatActivity {
             myList.setOnItemLongClickListener(new OnItemLongClickListener() {
                 @Override
                 public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                    TextView tv = (TextView) view;
+                    //TextView tv = (TextView) view;
                     TextView tv2 = view.findViewById(R.id.textId);
                     TextView tv3 = view.findViewById(R.id.textLido);
                     TextView tv4 = view.findViewById(R.id.textStatus);

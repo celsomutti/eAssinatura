@@ -6,8 +6,8 @@ android {
         applicationId "br.com.alocarioca.eAssinatura"
         minSdkVersion 23
         targetSdkVersion 28
-        versionCode 8
-        versionName 'B01.1'
+        versionCode 9
+        versionName 'B02.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
